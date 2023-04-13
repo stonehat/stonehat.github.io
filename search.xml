@@ -34,8 +34,8 @@
 <li>新建tags页面<br>在终端输入<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo new page tags</span><br></pre></td></tr></table></figure>
 找到&#x2F;source&#x2F;tags&#x2F;index.html，内容修改如下：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: tags</span><br><span class="line">date: 2023-04-13 22:53:12</span><br><span class="line">type: tags</span><br><span class="line">comments: false</span><br><span class="line">---</span><br></pre></td></tr></table></figure></li>
 </ol>
-<h3 id="修改sheme"><a href="#修改sheme" class="headerlink" title="修改sheme"></a>修改sheme</h3><p>默认的scheme是Muse，菜单在顶部，不太喜欢。修改为Mist。在主题配置&#x2F;themes&#x2F;next&#x2F;_config.yml中找到“Scheme Settings”，修改如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Schemes</span><br><span class="line">#scheme: Muse</span><br><span class="line">scheme: Mist</span><br><span class="line">#scheme: Pisces</span><br><span class="line">#scheme: Gemini</span><br></pre></td></tr></table></figure>]]></content>
+<h3 id="修改sheme"><a href="#修改sheme" class="headerlink" title="修改sheme"></a>修改sheme</h3><p>默认的scheme是Muse，菜单在顶部，不太喜欢。修改为Pisces。在主题配置&#x2F;themes&#x2F;next&#x2F;_config.yml中找到“Scheme Settings”，修改如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Schemes</span><br><span class="line">#scheme: Muse</span><br><span class="line">#scheme: Mist</span><br><span class="line">scheme: Pisces</span><br><span class="line">#scheme: Gemini</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>hexo</tag>
       </tags>
